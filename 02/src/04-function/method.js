@@ -1,0 +1,13 @@
+const foo = {
+	bar: 'bar',
+	// baz: function() {
+	// 	console.log('I am `baz` method');
+	// },
+
+	// simplify method
+	baz() {
+		console.log('I am `baz` method');
+	},
+};
+
+foo.baz();
